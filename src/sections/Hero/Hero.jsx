@@ -8,6 +8,8 @@ import githubLight from '../../assets/github-light.svg';
 import GithubDark from '../../assets/github-dark.svg';
 import MediumLight from '../../assets/MediumLight.svg';
 import MediumDark from '../../assets/MediumDark.svg';
+import AmazonCertLight from '../../assets/aws-certified-solutions-architect-associate-Kittl.svg';
+import AmazonCertDark from '../../assets/aws-certified-solutions-architect-associate-Kittl.svg';
 import CV from '../../assets/Dadrion_Tuircuit_CV.pdf';
 import { useTheme } from "../../common/ThemeContext";
 
@@ -18,6 +20,7 @@ function Hero() {
   const linkedinIcon= theme === 'light' ? linkedinLight : LinkedinDark;
   const githubIcon= theme === 'light' ? githubLight : GithubDark;
   const mediumIcon= theme === 'light' ? MediumDark : MediumLight;
+  const AmazonCertIcon= theme === 'light' ? AmazonCertLight : AmazonCertDark
 
 
   return (
@@ -54,8 +57,7 @@ function Hero() {
               </a>
             </span>
             <p className={styles.description}>
-              With a passion for developing modern React web apps
-
+            Build Solutions
             </p>
             <a href={CV} download>
               <button className='hover'>

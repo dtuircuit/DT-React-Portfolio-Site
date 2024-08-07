@@ -1,8 +1,8 @@
 import styles from './ProjectStyles.module.css'
-import viberr from '../../../assets/viberr.png';
-import JSprojectpic from '../../../assets/JS project pic.jpg';
-import hipsster from '../../../assets/hipsster.png';
-import fitlift from '../../../assets/fitlift.png';
+import Cloudformation from '../../../assets/Cloudformation.png';
+import JSprojectpic from '../../../assets/Reac Website.png';
+import Terraform  from '../../../assets/Terraform.png';
+import FoodDelivery from '../../../assets/Food Deliver Infrastructure.png';
 import ProjectCard from '../../../common/ProjectCard'
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
          <h1 className="sectionTitle"></h1>
          <div className={styles.projectsContainer} >
            <ProjectCard 
-           src={viberr} 
-           link='https://github.com/dtuircuit/terraform-portfolio-project/tree/master/terraform-portfolio-project'
-           h3= "Viberr" 
-           p="Streaming App"
+           src={Cloudformation} 
+           link='https://github.com/dtuircuit/Cloud-Formation'
+           h3= "VPC CloudFormation" 
+           p="AWS Cloud"
            />
            <ProjectCard 
            src={JSprojectpic} 
-           link='https://github.com/dtuircuit/terraform-portfolio-project/tree/master/terraform-portfolio-project'
-           h3= "Fresh Burger" 
-           p="Hamburger"
+           link='https://github.com/dtuircuit/DT-React-Portfolio-Site'
+           h3= "Portfolio React Site" 
+           p="JavaScript"
            />
            <ProjectCard 
-           src={fitlift} 
-           link='https://github.com/dtuircuit/terraform-portfolio-project/tree/master/terraform-portfolio-project'
-           h3= "FitLift" 
-           p="Fitness App"
+           src={Terraform} 
+           link='https://github.com/dtuircuit/terraform-portfolio-project/tree/master'
+           h3= "Next.js Terraform Deployment" 
+           p="AWS Cloud"
            />
            <ProjectCard 
-           src={hipsster} 
-           link='https://github.com/dtuircuit/terraform-portfolio-project/tree/master/terraform-portfolio-project'
-           h3= "Hipster" 
-           p="Glasses Shop"
+           src={FoodDelivery} 
+           link='https://github.com/CloudFoodDelivery/order_app/tree/Dadrion'
+           h3= "Food Delivery Cloud Infrastructure" 
+           p="AWS Cloud"
            />
            
          </div>

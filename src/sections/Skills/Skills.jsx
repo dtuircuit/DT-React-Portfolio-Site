@@ -16,10 +16,10 @@ function Skills() {
         </div>
         <hr />
         <div className={styles.skillList}>
-          <SkillList src={checkMarkIcon} skill="Severless" />
-          <SkillList src={checkMarkIcon} skill="CRUD" />
-          <SkillList src={checkMarkIcon} skill="Agile Methodology" />
-          <SkillList src={checkMarkIcon} skill="Monitoring & Visibility" />
+          <SkillList src={checkMarkIcon} skill="JSON" />
+          <SkillList src={checkMarkIcon} skill="YAML" />
+          <SkillList src={checkMarkIcon} skill="IAM" />
+          <SkillList src={checkMarkIcon} skill="VPC" />
         </div>
         <hr/>
         <div className={styles.skillList}>
@@ -27,7 +27,7 @@ function Skills() {
           <SkillList src={checkMarkIcon} skill="Bash" />
           <SkillList src={checkMarkIcon} skill="Git" />
           <SkillList src={checkMarkIcon} skill="SDLC" />
-          <SkillList src={checkMarkIcon} skill="JSON" />
+          <SkillList src={checkMarkIcon} skill="CloudFormation" />
 
         </div>
     </section> 
