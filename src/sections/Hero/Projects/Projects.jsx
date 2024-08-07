@@ -31,7 +31,7 @@ function Projects() {
            <ProjectCard 
            src={FoodDelivery} 
            link='https://github.com/CloudFoodDelivery/order_app/tree/Dadrion'
-           h3= "Food Delivery Cloud Infrastructure" 
+           h3= "Food Distribution Infrastructure" 
            p="AWS Cloud"
            />
            
