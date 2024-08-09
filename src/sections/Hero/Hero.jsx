@@ -1,5 +1,5 @@
 import styles from "./Herostyles.module.css";
-import heroImg from "../../assets/Avatar Pic.png";  // Ensure this path is correct
+import heroImg from '../../assets/Avatar pic.png';  // Ensure this path is correct
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import linkedinLight from '../../assets/linkedin-light.svg';
