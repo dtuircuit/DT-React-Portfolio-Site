@@ -2,7 +2,7 @@ import styles from './ProjectStyles.module.css'
 import Govtech from '../../../assets/Govtech.png';
 import JSprojectpic from '../../../assets/Reac Website.png';
 import Terraform  from '../../../assets/Terraform.png';
-import FoodDelivery from '../../../assets/Food Deliver Infrastructure.png';
+import FoodDelivery from '../../../assets/Food Delivery Infrastructure.png';
 import ProjectCard from '../../../common/ProjectCard'
 
 function Projects() {
