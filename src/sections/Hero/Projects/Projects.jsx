@@ -13,8 +13,8 @@ function Projects() {
            <ProjectCard 
            src={Govtech} 
            link='https://github.com/dtuircuit/Secure-and-Complaint-infrastructure-for-Government-Application'
-           h3= "Secure and Compliant Government Application Infrastructure " 
-           p="GovTech Infrastructure"
+           h3= "GovTech Infrastructure " 
+           p="FedRamp Compliance"
            />
            <ProjectCard 
            src={JSprojectpic} 
@@ -25,14 +25,14 @@ function Projects() {
            <ProjectCard 
            src={Terraform} 
            link='https://github.com/dtuircuit/Web_Application_Backend_Infra'
-           h3= "Secure Backend Application Infrastructure" 
+           h3= "Secure Application Infrastructure" 
            p="Backend Infrastructure"
            />
            <ProjectCard 
            src={FoodDelivery} 
            link='https://github.com/CloudFoodDelivery/order_app'
-           h3= "Real-Time Food Distribution Infrastructure" 
-           p=""
+           h3= "Food Distribution Infrastructure" 
+           p="Real-Time SRE"
            />
            
          </div>
